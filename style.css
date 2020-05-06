@@ -1,0 +1,65 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#b2f5f5), to(#e9fafa));
+  background: linear-gradient(90deg, #b2f5f5, #e9fafa);
+}
+
+.select {
+  color: blue;
+  font-weight: bolder;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header a:hover {
+  color: red;
+}
+
+header .header-box {
+  width: 50%;
+}
+
+header .header-right {
+  padding-left: 1rem;
+}
+
+header .header-right .h-r_box {
+  float: right;
+}
+
+header .header-right .h-r_box i {
+  margin-right: 5px;
+}
+
+header .header-right ul {
+  margin-top: 1rem;
+}
+
+.top-image {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(medakaya-top.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Hannari', sans-serif;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+main section div {
+  width: 30%;
+  margin-left: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
