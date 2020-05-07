@@ -100,8 +100,8 @@ footer {
 
 @media (max-width: 787px) {
   .top .top-image {
-    width: 90%;
-    height: 300px;
+    width: 100%;
+    height: 250px;
   }
   main section {
     margin-top: 3rem;
